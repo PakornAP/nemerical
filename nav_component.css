@@ -1,0 +1,14 @@
+th{
+    /* border:3px solid black; */
+    padding: 30px;
+    border-collapse:separate;
+    border-radius: 50%;
+    color: white;
+}
+table{
+    margin-left :20px;
+    border-spacing:3rem 0px;
+}
+th:hover{
+    background-color: #F59B2F;
+}
