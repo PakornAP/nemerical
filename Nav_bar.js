@@ -2,28 +2,22 @@ import logo from './logo.svg';
 import './nav_bar.css';
 import Nav_but from './nav_componet';
 import React from 'react';
-export default class Index_numer extends React.Component{
-  render(){
-    const username = "edok"
+export default class Index_numer extends React.Component {
+  render() {
+    const onclick = () =>{console.log("state")}
     return (
-    <div>
-      <header>
-        <div className="logo_head">
-          <img className="logo_index" src={logo}/>
-          <h1>NUMERICAL</h1>
-          <Nav_but/>
-        </div>
-        
-        <div className="user">
-          {username == "prayut"? "not allow to use":"lav yah" }
-          {username} is using
-        </div>
-      </header>
-      {/* <secton/> */}
-      {/* <article/> */}
-      {/* <footer/> */}
-    </div>
-      
+      <nav className="logo_head">
+          <div className="but" >
+            <Nav_but text="Home" onclick={onclick}/>
+            <Nav_but text="Method" />
+            <Nav_but text="Docs" />
+            <Nav_but text="Contract" />
+            <Nav_but text="DEV"/>
+          </div>
+          <header>NUMERICAL</header>
+          <img className="logo_index" src={logo} />
+          {/* <div className="user">user</div> */}
+      </nav>
     )
   }
 }

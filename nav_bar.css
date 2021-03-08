@@ -1,32 +1,38 @@
-header{
+.logo_head{
+    display:flex;
     background-color:#807979;
     padding: 10px;
-    border-bottom: 5px solid black;
-    /* display:flex */
-}
-.logo_head{
-    display: flex;
-    width: fit-content;
-    margin-right:5px;
+    border-bottom: 3px solid black;
+    position: fixed;
+    width: 100%;
+    font-family: cursive;
+    padding:0;
+    top: 0;
+    overflow: hidden;
 }
 .user{
-    text-align: right;
+   text-align: end;
     font-size: 20px;
     color: lawngreen;
-    margin-top: -30px;
 }
 .logo_index{
-    width: 100px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     text-align: left;
     border: 2px solid aqua;
     border-radius: 50%;
+    margin:10px 10px 0 10px ; 
 }
-h1{
-    font-size: 40px;
-    margin:10px 0 0 10px ; 
+header{
+    font-size: 30px;
+    margin:15px 10px 0 10px ; 
     color: whitesmoke;
 }
 .bar{
     margin-left: 20px ;
+}
+.but{
+    width: 80%;
+    /* margin: 10px 0px 0px 20px; */
+    text-decoration: none;
 }

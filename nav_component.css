@@ -1,14 +1,16 @@
-th{
-    /* border:3px solid black; */
-    padding: 30px;
-    border-collapse:separate;
-    border-radius: 50%;
-    color: white;
-}
-table{
-    margin-left :20px;
-    border-spacing:3rem 0px;
-}
-th:hover{
+
+.btd:hover{
     background-color: #F59B2F;
 }
+.btd{
+    padding-right: 100px;
+    font-family: cursive;
+    font-size: 20px;
+    height: 99%;
+    border: none;
+    background-color: #807979;
+    font-weight: bold;
+    line-height: 80px; 
+    box-sizing: border-box; 
+}
+
