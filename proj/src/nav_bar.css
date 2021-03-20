@@ -1,0 +1,30 @@
+img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.navbar.navbar-expand-lg.navbar-light{
+    font-Size:'20px';
+    background-Color: #FCCA62;
+    border-bottom: 2px solid black;
+}
+.btn.btn-outline-success{
+    background-Color: #C649FC;
+    color:white;
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   margin-right: 20px; 
+}
+li.nav-item.dropdown , .dropdown-item,h1{
+    font-Family:'Berkshire Swash', cursive;
+    margin-right: 50px;
+}
+a{
+    padding: 20px;
+}
+a:hover{
+    background-color: #7CFCC0;
+}
